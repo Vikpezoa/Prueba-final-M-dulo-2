@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script defer src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Full-Stack Developer & entusiasta de Data Science</h1>
+        </header>
+  
+        <nav>
+            <h4><a class="nav-link" href="#about-me">Sobre mí</a></h4>
+            <h4><a class="nav-link" href="#container-tecnologias">Tecnologías</a></h4>
+            <h4><a class="nav-link" href="#proyects">Proyectos</a></h4>
+            <h4><a class="nav-link" href="#habilidades">Habilidades</a></h4>
+            <h4><a class="nav-link" href="#contacto">Contacto</a></h4>
+            <h4><a href="#">Más...</a></h4>
+        </nav>
+
+        <main>
+            <div class="mainTitle">
+                <br><br>
+
+            </div>
+            <div class="contenedor-main">
+                <div id="contenedorIzq">
+                    <!-- main: izquierda -->
+                    <div class="cuadroIzq">
+                        <h2>Echa un vistazo al Proyecto Sasquatch!
+                        </h2>
+                        <div id="subcontenedorIzq">
+                            <h2>Discover the Footprints</h2> 
+                            <img id="flecha" src="./images/assets/arrow-light.png" alt="flecha">
+                        </div>
+                    </div>
+                    <div id="proyects" class="cuadroInteractivo">
+                      <a href="https://github.com/Vikpezoa/Proyecto_Sasquatch.git" class="text-white"><img src="./images/Sasquatch.png" class="interactiva" onmouseover="pasarImagen('./images/big.png')" onmouseout="regresarImagen('./images/Sasquatch.png')" alt="sasquatch"></a>
+                    </div>
+                </div>
+                <!-- main: derecha -->
+                <div class="contenedorDer">
+                    <div class="cuadroSupDer">
+                        <img src="./images/mail.png" alt="mail">
+                    </div>
+                    <div id="contacto" class="cuadroInfDer">
+                        <h2><a href="./mail.html" class="text-white">Email me</a></h2>
+                    </div>
+                </div>  
+            </div>
+        </main> 
+
+        <div id="about-me">
+          <div>
+            <h2>Hola, mi nombre es <strong>Victoria</strong>. Mucho gusto!</h2>
+          </div>
+          <div>
+            <p>Soy una desarrolladora web con pasión por crear sitios innovadores y fáciles de usar. Dedicada al desarrollo front-end y back-end, me fascina producir soluciones que cumplan con las expectativas de los usuarios.</p>
+            <br>Mi interés se extiende a las nuevas tecnologías y lenguajes de programación, especialmente la computación cuántica. Además, tengo un profundo entusiasmo por el análisis de datos de interés científico y cómo ello puede democratizar y hacer crecer la ciencia paralelamente como nunca antes.
+        </div>
+      </div>
+
+      <div id="container-tecnologias">
+        <div class="containers">
+          <div>
+            <h3>◓ HTML & CSS</h3>
+          </div>
+          <div>
+            <h3>◑ Python</h3>
+          </div>
+          <div>
+            <h3>◒ JavaScript</h3>
+          </div>
+          <div>
+            <h3>◐ Panda y NumPy</h3>
+          </div>
+
+        </div>   
+      </div>
+  
+        <footer id="habilidades">
+          <div class="footer div">
+            <img src="./images/self-growth.png" alt="autodesarrollo">
+            <h3 class="text-blueviolet">Crecimiento personal</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Mejora continua</td>
+                </tr>
+                <tr>
+                  <td>Metas SMART</td>
+                </tr>
+                <tr>
+                  <td>Auto-reflexión</td>
+                </tr>
+                <tr>
+                  <td>Desarrollo de Habilidades</td>
+                </tr>
+                <tr>
+                  <td>Aprendizaje continuo</td>
+                </tr>
+              </tbody>
+            </table>                  
+          </div> 
+          <div class="footer div">
+            <img src="./images/science.png" alt="ciencia-datos">
+            <h3 class="text-blueviolet">Ciencia de Datos</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Recolección de datos</td>
+                </tr>
+                <tr>
+                  <td>Visualización de datos</td>
+                </tr>
+                <tr>
+                  <td>Tendencias climáticas</td>
+                </tr>
+                <tr>
+                  <td>Datos satelitales con SNAP</td>
+                </tr>
+                <tr>
+                  <td>Patrones de distribución de especies</td>
+                </tr>
+              </tbody>
+            </table>                  
+          </div>
+          <div class="footer div">
+            <img src="./images/soft.png" alt="Habilidades-blandas">
+            <h3 class="text-blueviolet">Habilidades blandas</h3>
+            <table>
+             <tbody>
+              <tr>
+                <td>Comunicación efectiva</td>
+              </tr>
+              <tr>
+                <td>Adaptabilidad</td>
+              </tr>
+              <tr>
+                <td>Resolución de problemas</td>
+              </tr>
+              <tr>
+                <td>Pensamiento crítico</td>
+              </tr>
+              <tr>
+                <td>Orientación al cliente</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>   
+        </footer> 
+    </body>
+</html>

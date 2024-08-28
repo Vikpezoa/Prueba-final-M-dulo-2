@@ -1,0 +1,148 @@
+* {
+    font-family: 'Courier New', Courier, monospace; 
+    margin-top: 0; 
+}
+
+header {
+    color: #555;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px solid #555;
+    margin: 0 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* Main */
+
+.contenedor-main {
+    display: flex;
+    justify-content: center;
+}
+
+#flecha {
+    width: 35px;
+    height: 35px;
+    margin-top: 24px;
+}
+
+/* Contenedor mitad izquierda */
+#contenedorIzq {
+    display: flex;
+}
+#subcontenedorIzq {
+    display: flex;
+}
+
+.cuadroIzq {
+    color: white;
+    background-color: rgb(209, 95, 38);;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 0 10px 10px;
+}
+
+.cuadroInteractivo img {
+    width: 318px;
+    height: 260px;
+}
+
+/* Contenedor mitad derecha */
+.cuadroSupDer img {
+    width: 250px;
+    margin: 0px 10px 10px;
+}
+
+.cuadroInfDer {
+    color: white;
+    background-color: #e31668;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    margin: 0 10px 10px;
+    padding-top: 15px;
+}
+
+#about-me {
+    color: #555;
+    background-color: #f8f9fa;
+    padding: 30px; 
+    border-radius: 8px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px; 
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    align-items: baseline;  
+}
+
+#descripcion {
+    color: #555;
+    background-color: #f8f9fa;
+    padding: 30px; 
+    border-radius: 8px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px; 
+    margin-top: 50px;
+    text-align: center;  
+}
+
+footer {
+    color: #555;
+    font: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+footer img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 60px 10px;   
+}
+
+.text-blueviolet {
+    font: inherit; 
+    font-weight: bold;
+    color:blueviolet
+}
+
+#container-tecnologias {
+    background-color:rgb(192, 136, 106);
+    justify-content: space-around;   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.containers {
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: wheat;
+}
+
+.text-white {
+    color: white;
+}
